@@ -6,23 +6,65 @@ body{
     color:#434455 ; 
     
 }
+/* Стилі для обнулення відступів у елементів */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+/* обнулення базових властивостей списків (ul) */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* обнулення базових властивостей у посилань */
 a {
     text-decoration: none;
 }
-ul{
-    list-style-type: none;
 
+/* Властивості для коректного відображення картинок */
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
+
+/* Властивості для обнулення курсиву address */
+address {
+    font-style: normal;
+}
+
 button{cursor: pointer;
 background: #4d5ae5;}
 
 
 
 /*-------------header--------------*/
+.header {
+    border-bottom: 1px solid #e7e9fc;
+}
+.container{ width: 1158px;
+padding: 0 15px;
+margin: 0 auto;}
 
-.header {}
+.header-container{
+    display: flex;
+    align-items: center;
+}
 
-.header-navigation {}
+
+.header-navigation {
+    display: flex;
+    align-items: center;
+   
+}
 
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -32,6 +74,7 @@ background: #4d5ae5;}
         letter-spacing: 0.03em;
         text-transform: uppercase;
         color: #4d5ae5;
+        margin-right: 78px;
 }
 
 
@@ -39,8 +82,8 @@ background: #4d5ae5;}
         color: #2e2f42;}
     
 
-
-        /*-------------------fight-----------*/
+.heder-menu-list{display: flex;
+gap: 40px;}
 
 
 .heder-menu-item {
@@ -49,6 +92,8 @@ background: #4d5ae5;}
     line-height: 1.5;
     letter-spacing: 0.02em;
         color: #2e2f42;
+        padding: 24px 0;
+        display: block;
 }
 
 .header-href:hover, .header-href:focus {
@@ -64,6 +109,8 @@ background: #4d5ae5;}
 
 
 /*-----------contacts-----------------*/
+.heder-contacts-list {display: flex;
+gap: 40px;}
 .header-cotacts-items {
     font-size: 16px;
     font-weight: 400;
@@ -72,7 +119,9 @@ background: #4d5ae5;}
 
 }
 .heder-contacts {
-    font-style: normal
+    font-style: normal;
+    margin-left:  auto;
+    
 }
 
 .hedear-menu-link:hover, .hedear-menu-link:focus {
@@ -81,7 +130,7 @@ background: #4d5ae5;}
 .hedear-menu-link {
     color: #434455;
 }
-.heder-contacts-list {}
+
 /*-----------------HERO -------------*/
 
 .secnion-hero {
