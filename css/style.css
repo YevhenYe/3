@@ -50,8 +50,9 @@ background: #4d5ae5;}
 .header {
     border-bottom: 1px solid #e7e9fc;
 }
-.container{ width: 1158px;
-padding: 0 15px;
+.container{ max-width: 1158px;
+padding-left: 15px;
+padding-right: 15px;
 margin: 0 auto;}
 
 .header-container{
@@ -135,24 +136,29 @@ gap: 40px;}
 
 .secnion-hero {
     background: #2e2f42;
+    padding: 188px 472px;
 }
 
-.hero {
-        font-weight: 700;
+.hero 
+{ font-weight: 700;
         font-size: 56px;
         line-height: 1.07;
         letter-spacing: 0.02em;
         color: #fff;
         text-align: center;
-    
+    margin-bottom: 48px;}
 
+        .container-title{width: 496px;}
 
+.container-btn {
+        display: flex;
+    justify-content: center;
+   
 }
+
 .hero-order-btn:hover, .hero-order-btn:focus {
     background-color: #404bbf;
 }
-
-
 
 .hero-order-btn {
         font-weight: 500;
@@ -161,11 +167,17 @@ gap: 40px;}
         letter-spacing: 0.04em;
         color: #fff;
         font-family: inherit;
-}
+    border-radius: 4px;
+        padding: 16px 32px;
+        
+       }
+
+    
 
 
 /*--------------skills---------------*/
-.section-skills{
+.section-skills{padding-top: 106px;
+    padding-bottom: 107px;
     
 }
 
@@ -176,15 +188,19 @@ gap: 40px;}
         
 }
 
-.skills-list {}
+.skills-list {display: flex;
+gap: 24px;}
 
-.skills-item {}
+.skills-item {
+    width: calc((100% - 2 * 24px) / 3);
+}
 
 .skills-titel {font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2e2f42;
+    margin-bottom: 8px;
     }
 
 
@@ -195,7 +211,10 @@ gap: 40px;}
 }
 
 /*--------------------team-----------*/
-.section-tem{background: #f4f4fd;}
+.section-tem{background: #f4f4fd;
+    
+    
+}
 
 .team {
 
@@ -206,12 +225,19 @@ gap: 40px;}
         text-align: center;
         color: #2e2f42;
         text-transform: capitalize;
+        margin-bottom: 72px;
+        padding-top: 120px;
         
 }
+ 
 
-.team-list {
+.team-list {display: flex;
+    gap: 24px;
+    padding-bottom: 120px;
+    
     
 }
+
 
 
 .team-items {background-color: #fff;}
@@ -234,6 +260,7 @@ gap: 40px;}
 .team-text{font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+    
         }
     /*-------------------------------------------portfolio------------------------*/
         .portfolio
