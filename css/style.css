@@ -50,7 +50,7 @@ background: #4d5ae5;}
 .header {
 
     border-bottom: 1px solid #e7e9fc;
-padding: 24px 0;
+
 }
 .container{ max-width: 1158px;
 padding-left: 15px;
@@ -234,10 +234,10 @@ gap: 24px;}
         color: #2e2f42;
         text-transform: capitalize;
         margin-bottom: 72px;
-        padding-top: 120px;}
+        }
  .team-list {display: flex;
     gap: 24px;
-    padding-bottom: 120px;}
+    }
     
 .team-items
  {background-color: #fff;
