@@ -224,11 +224,7 @@ width: 264px;
 
 .icon-skills{display: flex;
     justify-content: center;
-    align-items: center;
-
-    
-    
-    }
+    align-items: center; }
 
 .visually-hidden {
     position: absolute;
