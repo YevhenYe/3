@@ -247,9 +247,8 @@ gap: 24px;
 justify-content: center;
 }
 
-.container-skills{margin-left: 156px;
-    margin: 0 auto;
-}
+
+
 
 .skills-item {
     width: calc((100% - 2 * 24px) / 3);
