@@ -432,8 +432,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
 
     /*----------------footer-------------*/
         .footer {background: #2e2f42;
-            padding: 100px 0;
-       }
+            padding: 100px 0;}
+            
+    .container-footer-wrapper {
+display: flex;
+    align-items: baseline;}
     
         .footer-logo {font-family: "Raleway", sans-serif;
             font-weight: 700;
@@ -460,13 +463,12 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
                 display: flex;
 
         }
-        .container-footer-wrapper{display: flex;
-        align-items: baseline;}
+        
 
                 .container-footer-logo{margin-right: 120px;}
 
         .footer-container-icon{
-            align-items: baseline;
+            
         }
 
 
