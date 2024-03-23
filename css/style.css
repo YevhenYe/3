@@ -466,10 +466,11 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
                 .container-footer-logo{margin-right: 120px;}
 
         .footer-container-icon{
+            align-items: baseline;
         }
-.container-title-footer{}
 
-                .footer-title{
+
+                .footer-title{display: flex;
                     font-size: 16px;
                     line-height: 1.5;
                     letter-spacing: 0.02em;
@@ -483,7 +484,7 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);}
                 .icon-list-footer {display: flex;
                     gap: 16px;}
         
-                    .conteiner-icon-p{align-items: baseline}
+                    
                 .icon-item-footer {width: 40px;
                 height: 40px;
             display: flex;}
