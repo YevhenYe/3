@@ -231,9 +231,7 @@ width: 264px;
 justify-content: center;
 align-items: center;}
 
-.icon-skills{display: flex;
-    
-padding: 24px 100px;}
+.icon-skills{display: flex;}
 
 .visually-hidden {
     position: absolute;
